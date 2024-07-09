@@ -42,10 +42,6 @@ nav {
     line-height: 20px;
 }
 
-.nav-link:hover {
-    background-color: blueviolet;
-}
-
 h1{
     color: rgb(25, 31, 206);
     background-color: wheat;
