@@ -1,5 +1,5 @@
 import { HOME, BULGARIA, SERBIA,GREECE, CONTAINER_SELECTOR } from "./constants.js";
-import { toHomeView } from "./views.js";
+import { toHomeView,toSearchView } from "./views.js";
 
 
 export const loadPage = (page = '') => {
@@ -53,4 +53,9 @@ export const loadPage = (page = '') => {
   
   const renderGreece = () => {
     q(CONTAINER_SELECTOR).innerHTML = toGreeceView();
+  };
+
+  export const renderSearchItems = (searchTerm) => {
+    const searchedArtist = loadSearchGifs(searchTerm);
+    q(CONTAINER_SELECTOR).innerHTML = toSearchView(searchedArtist, searchTerm);
   };
