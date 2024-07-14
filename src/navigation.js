@@ -1,5 +1,5 @@
 import { HOME, BULGARIA, SERBIA,GREECE, CONTAINER_SELECTOR } from "./constants.js";
-import { toHomeView,toSearchView } from "./views.js";
+import { toHomeView,toSearchView,toBulgariaView,toGreeceView,toSerbiaView } from "./views.js";
 
 
 export const loadPage = (page = '') => {
