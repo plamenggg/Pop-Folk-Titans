@@ -26,6 +26,7 @@ export const loadPage = (page = '') => {
   };
 
   const q = (selector) => document.querySelector(selector);
+  const qs = (selector) => document.querySelectorAll(selector);
 
   const setActiveNav = (page) => {
     const navs = qs('a.nav-link');
