@@ -125,4 +125,22 @@ html, body {
     color: wheat;
     text-align: center;
 
+}
+
+#home {
+    text-align: center;
+    font-size: 1.75em;
+  }
+
+  .images {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+  }
+  .images img {
+    width: 250px;
+    height: 200px;
   }
