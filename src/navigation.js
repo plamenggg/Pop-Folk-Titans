@@ -22,6 +22,10 @@ export const loadPage = (page = '') => {
       case GREECE:
         setActiveNav(GREECE);
         return renderGreece();
+
+      case ROMANIA:
+        setActiveNav(ROMANIA);
+        return renderRomania();
   
       default:
         return null;
