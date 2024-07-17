@@ -3,6 +3,7 @@ import { toHomeView } from "./to-Home-view.js";
 import { toBulgariaView } from "./to-Bulgaria-view.js";
 import { toSerbiaView } from "./to-Serbia-view.js";
 import { toGreeceView } from "./to-Greece-view.js";
+import { toRomaniaView } from "./to-Romania-view.js";
 
 
 export const loadPage = (page = '') => {
@@ -61,6 +62,10 @@ export const loadPage = (page = '') => {
   
   const renderGreece = () => {
     q(CONTAINER_SELECTOR).innerHTML = toGreeceView();
+  };
+
+  const renderRomania = () => {
+    q(CONTAINER_SELECTOR).innerHTML = toRomaniaView();
   };
 
   export const renderSearchItems = (searchTerm) => {

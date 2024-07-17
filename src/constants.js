@@ -8,4 +8,4 @@ export const GREECE = 'Greece';
 
 export const CONTAINER_SELECTOR = '#container';
 
-export const ROMANIA = 'Romania'
+export const ROMANIA = 'Romania';
